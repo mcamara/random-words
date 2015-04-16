@@ -1,0 +1,3 @@
+module RandomWords
+  VERSION = "0.0.1"
+end
