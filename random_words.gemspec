@@ -7,11 +7,12 @@ require "random_words/version"
 Gem::Specification.new do |s|
   s.name        = "random_words"
   s.version     = RandomWords::VERSION
-  s.authors     = [""]
-  s.email       = [""]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RandomWords."
-  s.description = "TODO: Description of RandomWords."
+  s.platform    = Gem::Platform::RUBY
+  s.authors     = ["Marc Cámara"]
+  s.email       = ["mcamara88@gmail.com"]
+  s.homepage    = "https://github.com/mcamara/random-words"
+  s.summary     = "An easy generator of random words."
+  s.description = "An easy generator of random words."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -19,5 +20,4 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.2.1"
 
-  s.add_development_dependency "sqlite3"
 end
