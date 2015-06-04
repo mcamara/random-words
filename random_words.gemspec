@@ -6,7 +6,7 @@ require "random_words/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "random_words"
-  s.version     = RandomWords::VERSION
+  s.version     = '0.1.0'
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Marc Cámara"]
   s.email       = ["mcamara88@gmail.com"]
