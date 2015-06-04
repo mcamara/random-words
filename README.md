@@ -1,4 +1,4 @@
-= RandomWords
+# RandomWords
 
 Just an easy and really to use String extension that make random words in a desired length.
 
